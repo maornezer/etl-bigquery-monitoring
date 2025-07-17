@@ -1,0 +1,27 @@
+{
+  "us_states_csv": {
+    "url": "https://storage.googleapis.com/cloud-samples-data/bigquery/us-states/us-states.csv",
+    "data_file": "us-states.csv",
+    "table_id": "my_etl.us_state_csv",
+    "schema": "us_states.json",
+    "source_format": "CSV",
+    "isEnable": true
+  },
+  "us_states_json": {
+    "url": "https://storage.googleapis.com/cloud-samples-data/bigquery/us-states/us-states.json",
+    "data_file": "us-states.json",
+    "table_id": "my_etl.us_state_json",
+    "schema": "us_states.json",
+    "source_format": "NEWLINE_DELIMITED_JSON",
+    "isEnable": true
+  },
+      "us_states_avro": {
+    "url": "https://storage.googleapis.com/cloud-samples-data/bigquery/us-states/us-states.avro",
+    "data_file": "us-states.avro",
+    "table_id": "my-bi-project-ppltx.my_etl.us_state_avro",
+    "schema": "us_states.json",
+    "source_format": "AVRO",
+    "isEnable": false
+  }
+}
+

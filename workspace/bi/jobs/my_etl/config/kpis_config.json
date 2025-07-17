@@ -1,0 +1,24 @@
+{
+  "ppltx_demo_kpis": {
+    "kpis": {
+      "daily_logs": {
+        "project": "my-bi-project-ppltx",
+        "dataset": "logs",
+        "table_id": "daily_logs",
+        "thresh_in_percent": 0.15,
+        "d1": "xxx",
+        "description": "Check that the KPI hadn't change dramatically",
+        "isEnable": false
+      },
+      "dau": {
+        "project": "my-bi-project-ppltx",
+        "dataset": "panels",
+        "table_id": "daily_user_panel",
+        "thresh_in_percent": 0.003,
+        "d1": "previous_dau",
+        "description": "Check that the DAU hadn't change dramatically",
+        "isEnable": true
+      }
+    }
+  }
+}

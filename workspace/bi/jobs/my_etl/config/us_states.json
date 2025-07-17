@@ -1,0 +1,14 @@
+[
+  {
+    "description": "The country name",
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "description": "The country id",
+    "mode": "NULLABLE",
+    "name": "post_abbr",
+    "type": "STRING"
+  }
+]

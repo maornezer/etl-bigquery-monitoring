@@ -1,0 +1,32 @@
+[
+  {
+    "description": "sepal_length",
+    "mode": "NULLABLE",
+    "name": "sepal_length",
+    "type": "float64"
+  },
+  {
+    "description": "sepal_width",
+    "mode": "NULLABLE",
+    "name": "sepal_width",
+    "type": "float64"
+  },
+  {
+    "description": "petal_length",
+    "mode": "NULLABLE",
+    "name": "petal_length",
+    "type": "float64"
+  },
+  {
+    "description": "petal_width",
+    "mode": "NULLABLE",
+    "name": "petal_width",
+    "type": "float64"
+  },
+  {
+    "description": "species",
+    "mode": "NULLABLE",
+    "name": "species",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "logs": {
+    "tables": {
+      "daily_logs": 1
+    },
+    "exclude": [
+      "XX"
+    ]
+  },
+  "my_etl": {
+    "tables": {
+      "us_state_json": 100
+    },
+    "exclude": [
+      "us_states_csv",
+      "us_states_csv_us_state_csv_20250707"
+    ]
+  }
+}

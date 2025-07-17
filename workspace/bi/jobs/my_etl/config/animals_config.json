@@ -1,0 +1,21 @@
+{
+  "iris_csv": {
+    "url": "https://storage.googleapis.com/cloud-samples-data/tables/iris_1000.csv",
+    "data_file": "iris_1000.csv",
+    "table_id": "my_etl.iris_1000_csv",
+    "schema": "iris.json",
+    "source_format": "CSV",
+    "null_marker": "NA",
+    "isEnable": true
+  },
+  "penguins_csv": {
+    "url": "https://storage.googleapis.com/cloud-samples-data/tables/penguins_1032.csv",
+    "data_file": "penguins_1032.csv",
+    "table_id": "my_etl.penguins_csv",
+    "schema": "penguins.json",
+    "source_format": "CSV",
+    "null_marker": "NA",
+    "isEnable": true
+  }
+}
+
