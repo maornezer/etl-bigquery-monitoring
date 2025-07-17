@@ -18,7 +18,7 @@ The project supports dynamic, config-based execution, and is easy to extend or a
 
 | Script                | Purpose                                                                 |
 |-----------------------|-------------------------------------------------------------------------|
-|  [my_etl.py](./bi/jobs/my_etl/my_etl.py) | Main ETL pipeline: extract, load, and log data into BigQuery            |
+|  [my_etl.py](./workspace/bi/jobs/my_etl/my_etl.py) | Main ETL pipeline: extract, load, and log data into BigQuery            |
 | `logs_monitoring.py`  | Checks ETL logs and flags issues or missed jobs                         |
 | `table_monitoring.py` | Verifies table freshness and row counts                                 |
 | `table_validation.py` | Validates schema and expected structure of BigQuery tables              |
